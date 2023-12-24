@@ -1,0 +1,64 @@
+
+
+.main{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.709), rgba(0, 0, 0, 0.766)), url('/assets/img/main-logistica.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+}
+
+.container{
+  background-color: rgba(155, 147, 147, 0.585);
+  height: 800px;
+  width: 800px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  color: orangered;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.875);
+}
+label{
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+input{
+  padding: 10px;
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+select{
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button{
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: orangered;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 800;
+  margin-top: 40px;
+}

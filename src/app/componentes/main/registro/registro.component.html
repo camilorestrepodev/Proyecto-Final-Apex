@@ -1,0 +1,57 @@
+<div class="main">
+  <div class="container">
+    <h1>Registrarse</h1>
+    <form #formulario="ngForm">
+      <!-- Nombre completo -->
+      <div class="mb-3">
+        <label for="nombreCompleto" class="form-label">Nombre completo*</label>
+        <input type="text" class="form-control" placeholder="Escribe tu nombre completo..." name="nombreCompleto" ngModel required>
+      </div>
+
+      <!-- Tipo de documento -->
+      <div class="mb-3">
+        <label for="tipoDocumento" class="form-label">Tipo de documento</label>
+        <select class="form-select" name="tipoDocumento" id="tipoDocumento" placeholder="Escribe tu número de identificación..." ngModel>
+          <option value="" disabled selected>Seleccione una opción</option>
+          <option value="CedulaCiudadania">Cédula de ciudadanía</option>
+          <option value="CedulaExtranjera">Cédula extranjera</option>
+          <option value="Pasaporte">Pasaporte</option>
+        </select>
+      </div>
+
+      <!-- Número de documento -->
+      <div class="mb-3">
+        <label for="numeroDocumento" class="form-label">Número de documento*</label>
+        <input type="text" class="form-control" placeholder="Escribe tu número de identificación..." name="numeroDocumento" ngModel required>
+      </div>
+
+      <!-- Celular -->
+      <div class="mb-3">
+        <label for="celular" class="form-label">Celular</label>
+        <input type="text" class="form-control" placeholder="Escribe tu número de celular..." name="celular" ngModel>
+      </div>
+
+      <!-- Correo Electrónico -->
+      <div class="mb-3">
+        <label for="correoElectronico" class="form-label">Correo Electrónico</label>
+        <input type="text" class="form-control" placeholder="Escribe tu correo electrónico..." name="correoElectronico" ngModel>
+      </div>
+
+      <!-- Tipo de Usuario -->
+      <div class="mb-3">
+        <label for="tipoUsuario" class="form-label">Tipo de Usuario</label>
+        <select class="form-select" name="tipoUsuario" id="tipoUsuario" ngModel>
+          <option value="" disabled selected>Seleccione una opción</option>
+          <option value="Administrador">Administrador</option>
+          <option value="Asesor">Asesor</option>
+          <option value="Cliente">Cliente</option>
+          <option value="Transportista">Transportista</option>
+        </select>
+      </div>
+
+      <!-- Botón de Enviar -->
+      <button type="button" class="btn btn-primary" >Enviar</button>
+    </form>
+
+  </div>
+</div>
